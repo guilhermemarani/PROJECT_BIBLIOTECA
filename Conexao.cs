@@ -9,7 +9,7 @@ namespace PROJECT_BIBLIOTECA
 {
     class Conexao
     {
-        public SQLiteConnection conn = new SQLiteConnection("Data Source=base.sdb");
+        public SQLiteConnection conn = new SQLiteConnection("Data Source=C:\\Cursos\\CSharp\\PROJECT_BIBLIOTECA\\base\\base.sdb");
 
         public void conectar()
         {

@@ -50,7 +50,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(23, 83);
+            this.label2.Location = new System.Drawing.Point(3, 84);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 1;
@@ -59,7 +59,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(23, 109);
+            this.label3.Location = new System.Drawing.Point(3, 110);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(41, 13);
             this.label3.TabIndex = 2;
@@ -67,9 +67,9 @@
             // 
             // btn_entrar
             // 
-            this.btn_entrar.Location = new System.Drawing.Point(183, 76);
+            this.btn_entrar.Location = new System.Drawing.Point(64, 138);
             this.btn_entrar.Name = "btn_entrar";
-            this.btn_entrar.Size = new System.Drawing.Size(75, 46);
+            this.btn_entrar.Size = new System.Drawing.Size(165, 46);
             this.btn_entrar.TabIndex = 3;
             this.btn_entrar.TabStop = false;
             this.btn_entrar.Text = "Entrar";
@@ -78,23 +78,23 @@
             // 
             // txt_email
             // 
-            this.txt_email.Location = new System.Drawing.Point(64, 76);
+            this.txt_email.Location = new System.Drawing.Point(44, 77);
             this.txt_email.Name = "txt_email";
-            this.txt_email.Size = new System.Drawing.Size(100, 20);
+            this.txt_email.Size = new System.Drawing.Size(231, 20);
             this.txt_email.TabIndex = 4;
             // 
             // txt_senha
             // 
-            this.txt_senha.Location = new System.Drawing.Point(64, 102);
+            this.txt_senha.Location = new System.Drawing.Point(44, 103);
             this.txt_senha.Name = "txt_senha";
             this.txt_senha.PasswordChar = '*';
-            this.txt_senha.Size = new System.Drawing.Size(100, 20);
+            this.txt_senha.Size = new System.Drawing.Size(231, 20);
             this.txt_senha.TabIndex = 5;
             // 
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(26, 139);
+            this.linkLabel1.Location = new System.Drawing.Point(152, 196);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(119, 13);
             this.linkLabel1.TabIndex = 6;
@@ -106,7 +106,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(307, 218);
+            this.ClientSize = new System.Drawing.Size(283, 218);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.txt_senha);
             this.Controls.Add(this.txt_email);
